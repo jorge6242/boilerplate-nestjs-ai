@@ -25,15 +25,18 @@ Es una técnica inspirada en principios de ingeniería de requisitos (IEEE 830 /
 ## 🧩 ¿Qué contiene este repositorio?
 
 ```
-api-products/
-├── src/            # Código generado por la orquestación
-├── migrations/     # Migraciones TypeORM
+.                       # Raíz del repo
+├── api-products/       # Backend NestJS generado por la orquestación
+│   ├── src/
+│   ├── migrations/
+│   ├── README.md       # README propio del backend
+│   └── package.json
 ├── FRD-00-master-orchestration.md
 ├── FRD-01-boilerplate-core-products.md
 ├── FRD-02-products-database.md
-├── FRD-03-auth-jwt.md
+├── FRD-03-auth-security.md
 ├── FRD-04-unit-testing.md
-└── README.md       # Este archivo
+└── README.md           # README principal del repositorio (este)
 ```
 
 ---
